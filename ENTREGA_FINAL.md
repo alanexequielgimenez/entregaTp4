@@ -109,16 +109,7 @@ Las pruebas funcionales se realizaron con Postman y MongoDB Compass:
 
 - Link: PEGAR_AQUI_LINK_DEL_VIDEO
 
-## Link de publicacion (si existiera)
+## Link de publicacion
 
 - Link: NO_APLICA
 
-## Guion sugerido para video (5 a 10 minutos)
-
-1. Presentacion breve del proyecto y objetivo.
-2. Mostrar estructura de carpetas principal.
-3. Explicar autenticacion (register/login, bcrypt, JWT).
-4. Ejecutar CRUD completo de productos en Postman.
-5. Mostrar compra protegida con JWT.
-6. Mostrar datos en MongoDB Compass.
-7. Cierre con decisiones tecnicas, dificultades y mejoras futuras.
