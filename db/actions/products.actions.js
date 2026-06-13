@@ -12,4 +12,22 @@ export const listProducts = async () => {
     return Product.find().sort({ createdAt: -1 }).lean()
 }
 
+export const getProductById = async (id) => {
+    await connectToDatabase()
+    return Product.findById(id).lean()
+}
+
+export const updateProduct = async (id, payload) => {
+    await connectToDatabase()
+    return Product.findByIdAndUpdate(id, payload, {
+        new: true,
+        runValidators: true
+    }).lean()
+}
+
+export const deleteProduct = async (id) => {
+    await connectToDatabase()
+    return Product.findByIdAndDelete(id).lean()
+}
+
 export default createProd
