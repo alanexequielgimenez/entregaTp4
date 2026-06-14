@@ -107,7 +107,7 @@ Las pruebas funcionales se realizaron con Postman y MongoDB Compass:
 
 ## Link al video explicativo
 
-- Link: PEGAR_AQUI_LINK_DEL_VIDEO
+- Link: https://youtu.be/ITeqNO83c5M
 
 ## Link de publicacion
 
